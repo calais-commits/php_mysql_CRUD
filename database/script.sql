@@ -1,0 +1,17 @@
+CREATE DATABASE php_mysql_CRUD_jesus;
+
+USE php_mysql_CRUD_jesus;
+
+CREATE TABLE task(
+    id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);
+
+DESCRIBE task;
+
+ALTER TABLE task ADD img LONGBLOB;
+
+DESCRIBE task;
