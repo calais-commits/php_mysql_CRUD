@@ -19,5 +19,3 @@
       </div>
     </nav>
   </header>
-
-  <main>
