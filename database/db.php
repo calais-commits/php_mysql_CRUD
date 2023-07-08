@@ -1,15 +1,10 @@
 <?php
-    session_start();
+  session_start();
 
-    $conn = mysqli_connect(
-        "localhost",
-        "root",
-        "",
-        "php_mysql_crud_jesus"
-    ) or die(mysqli_error($mysqli));
-
-    
-
-
-
+  $conn = mysqli_connect(
+    'localhost',
+    'root',
+    '',
+    'php_mysql_crud_jesus'
+  ) or die(mysqli_error($mysqli));
 ?>
